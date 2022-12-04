@@ -11,7 +11,7 @@ Only developers who build OrchanixOS themselves will need to create an ISO file.
 - orchanixos-chroot (must be the version from OrchanixOS 1.0 or newer. If using a non-OrchanixOS distribution, install orchanixos-chroot from the OrchanixOS repository somewhere in your PATH such as `/usr/local/bin`).
 - squashfs-tools (for creating a squashfs filesystem, required for live CDs).
 
-Simply clone this repository and run the create-iso.sh script as root (or create-iso-firmware.sh to create an ISO image without non-free firmware included).
+Simply clone this repository and run the create-iso.sh script as root.
 
 You must pass the rootfs file you want to use for creating the ISO as an argument, like this (for example):
 ```
