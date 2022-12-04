@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Install OrchanixOS
+Type=Application
+Comment=Install OrchanixOS onto your system
+Exec=pkexec livecd-installer
+Icon=/usr/share/orchanixos/orchanixos.png
+Terminal=true
+Categories=System;Utility
+Path=
+StartupNotify=false
