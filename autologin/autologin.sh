@@ -1,14 +1,14 @@
 # Check which desktop environment is installed and configure autologin for it.
 
-if [ -e iso-workdir/massos-rootfs/usr/share/xsessions/xfce.desktop ]; then
+if [ -e iso-workdir/orchanixos-rootfs/usr/share/xsessions/xfce.desktop ]; then
   echo "--> Configuring autologin for Xfce..."
   . autologin/xfce.sh
   variant="xfce"
-elif [ -e iso-workdir/massos-rootfs/usr/share/wayland-sessions/gnome-wayland.desktop ]; then
+elif [ -e iso-workdir/orchanixos-rootfs/usr/share/wayland-sessions/gnome-wayland.desktop ]; then
   echo "--> Configuring autologin for GNOME..."
   . autologin/gnome.sh
   variant="gnome"
-elif [ -e iso-workdir/massos-rootfs/usr/share/xsessions/plasma.desktop ]; then
+elif [ -e iso-workdir/orchanixos-rootfs/usr/share/xsessions/plasma.desktop ]; then
   echo "--> Configuring autologin for KDE Plasma..."
   . autologin/plasma.sh
   variant="plasma"

@@ -16,7 +16,7 @@
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 # Set version (to be incremented on each update/commit).
-VER=47
+VER=1
 
 # Detect OrchanixOS version (for version information only).
 mrel="$(orchanixos-release 2>/dev/null || echo "UNKNOWN")"
